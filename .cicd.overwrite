@@ -1,0 +1,8 @@
+---
+
+# Generic
+generic:
+  role: ansible-role-lsb
+  role_short: lsb
+  role_description: |
+    Installs all base LSB packages 
