@@ -3,7 +3,8 @@
 
 # ansible-role-lsb
 
-Installs all base LSB packages
+Installs all base LSB packages 
+
 
 ## Platforms
 
@@ -11,13 +12,11 @@ Supported platforms
 
 - Red Hat Enterprise Linux 7<sup>1</sup>
 - Red Hat Enterprise Linux 8<sup>1</sup>
-- Red Hat Enterprise Linux 9<sup>1</sup>
 - CentOS 7
 - CentOS 8
 - RockyLinux 8
 - OracleLinux 8
 - AlmaLinux 8
-- AlmaLinux 9
 - Debian 10 (Buster)
 - Debian 11 (Bullseye)
 - Ubuntu 18.04 LTS
