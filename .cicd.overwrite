@@ -9,18 +9,11 @@ generic:
 
 platforms:
   rhel9:
-    name: Red Hat Enterprise Linux 9
     ci: false
     supported: false
-    image: "dropveter/rhel9-ansible"
-    galaxy:
-      name: EL
-      version: 9
+  rockylinux9:
+    ci: false
+    supported: false
   almalinux9:
-    name: AlmaLinux 9
     ci: false
     supported: false
-    image: "dropveter/almalinux9-ansible"
-    galaxy:
-      name: EL
-      version: 9

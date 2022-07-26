@@ -55,7 +55,7 @@ lsb_packages:
 <pre><code>
 - name: sample playbook for role 'lsb'
   hosts: all
-  vars:
+  become: "{{ molecule['converge']['become'] | default('yes') }}"
   tasks:
     - name: Include role 'lsb'
       include_role:
