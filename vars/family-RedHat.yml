@@ -1,5 +1,5 @@
 ---
 
-# list of lsb packages 
+# list of lsb packages
 lsb_packages:
   - redhat-lsb-core
