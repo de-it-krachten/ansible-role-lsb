@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.1.0...v1.2.0) (2022-10-12)
+
+
+### Features
+
+* Move to FQCN ([35c94db](https://github.com/de-it-krachten/ansible-role-lsb/commit/35c94dbbeafd487b7357fe6b0fb6a54e7e27bca7))
+* Update CI to latest standards ([73a9998](https://github.com/de-it-krachten/ansible-role-lsb/commit/73a9998fad46d9211e49b9fc6f7db2f534281c4a))
+
 # [1.1.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.0.0...v1.1.0) (2022-07-28)
 
 
