@@ -1,7 +1,7 @@
 ---
 
 - name: Load variables based on OS type
-  include_vars: "{{ lookup('first_found', params) }}"
+  ansible.builtin.include_vars: "{{ lookup('first_found', params) }}"
   vars:
     params:
       files:
@@ -14,6 +14,6 @@
         - 'vars'
 
 - name: Install LSB packages
-  package:
+  ansible.builtin.package:
     name: "{{ lsb_packages }}"
     state: present

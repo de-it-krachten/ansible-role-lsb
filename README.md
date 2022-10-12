@@ -6,6 +6,15 @@
 Installs all base LSB packages 
 
 
+
+## Dependencies
+
+#### Roles
+None
+
+#### Collections
+- community.general
+
 ## Platforms
 
 Supported platforms
@@ -33,6 +42,7 @@ Note:
 
 </pre></code>
 
+
 ### vars/family-RedHat.yml
 <pre><code>
 # list of lsb packages 
@@ -58,6 +68,6 @@ lsb_packages:
   become: "{{ molecule['converge']['become'] | default('yes') }}"
   tasks:
     - name: Include role 'lsb'
-      include_role:
+      ansible.builtin.include_role:
         name: lsb
 </pre></code>

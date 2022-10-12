@@ -1,6 +1,6 @@
 ---
 
-# list of lsb packages 
+# list of lsb packages
 lsb_packages:
   - lsb-base
   - lsb-release
