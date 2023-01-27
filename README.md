@@ -24,7 +24,6 @@ Supported platforms
 - CentOS 7
 - RockyLinux 8
 - OracleLinux 8
-- OracleLinux 9
 - AlmaLinux 8
 - Debian 10 (Buster)
 - Debian 11 (Bullseye)
