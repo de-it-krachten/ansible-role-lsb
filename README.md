@@ -30,8 +30,8 @@ Supported platforms
 - Ubuntu 18.04 LTS
 - Ubuntu 20.04 LTS
 - Ubuntu 22.04 LTS
-- Fedora 35
 - Fedora 36
+- Fedora 37
 
 Note:
 <sup>1</sup> : no automated testing is performed on these platforms
@@ -43,19 +43,19 @@ Note:
 </pre></code>
 
 
-### vars/family-RedHat.yml
-<pre><code>
-# list of lsb packages 
-lsb_packages:
-  - redhat-lsb-core
-</pre></code>
-
 ### vars/family-Debian.yml
 <pre><code>
-# list of lsb packages 
+# list of lsb packages
 lsb_packages:
   - lsb-base
   - lsb-release
+</pre></code>
+
+### vars/family-RedHat.yml
+<pre><code>
+# list of lsb packages
+lsb_packages:
+  - redhat-lsb-core
 </pre></code>
 
 
@@ -65,7 +65,7 @@ lsb_packages:
 <pre><code>
 - name: sample playbook for role 'lsb'
   hosts: all
-  become: "{{ molecule['converge']['become'] | default('yes') }}"
+  become: "yes"
   tasks:
     - name: Include role 'lsb'
       ansible.builtin.include_role:
