@@ -43,19 +43,19 @@ Note:
 </pre></code>
 
 
-### vars/family-RedHat.yml
-<pre><code>
-# list of lsb packages
-lsb_packages:
-  - redhat-lsb-core
-</pre></code>
-
 ### vars/family-Debian.yml
 <pre><code>
 # list of lsb packages
 lsb_packages:
   - lsb-base
   - lsb-release
+</pre></code>
+
+### vars/family-RedHat.yml
+<pre><code>
+# list of lsb packages
+lsb_packages:
+  - redhat-lsb-core
 </pre></code>
 
 
