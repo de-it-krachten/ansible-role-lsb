@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.2.0...v1.3.0) (2023-09-09)
+
+
+### Features
+
+* Update supported platforms & CI ([3ccce86](https://github.com/de-it-krachten/ansible-role-lsb/commit/3ccce86dc44476f2f18de1bcbc00b72d338c2b56))
+
 # [1.2.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.1.0...v1.2.0) (2022-10-12)
 
 
