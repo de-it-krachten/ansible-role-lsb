@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.3.0...v1.4.0) (2024-06-03)
+
+
+### Features
+
+* Add support for Ubuntu 24.04 LTS + Fedora 40 ([f2e5a7f](https://github.com/de-it-krachten/ansible-role-lsb/commit/f2e5a7f1587bbfa2a7201d1ce0b06346f4a7194c))
+
 # [1.3.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.2.0...v1.3.0) (2023-09-09)
 
 
