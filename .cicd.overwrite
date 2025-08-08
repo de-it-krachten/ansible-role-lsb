@@ -32,3 +32,6 @@ platforms:
   almalinux10:
     ci: false
     supported: false
+  fedora42:
+    ci: false
+    supported: false
