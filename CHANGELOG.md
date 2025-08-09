@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.5.0...v1.6.0) (2025-08-09)
+
+
+### Features
+
+* Add support for Debian 13 (Trixie) ([a96b704](https://github.com/de-it-krachten/ansible-role-lsb/commit/a96b7048ff0e2fddb01c7a152cdf175b65639029))
+
 # [1.5.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.4.0...v1.5.0) (2024-12-29)
 
 
