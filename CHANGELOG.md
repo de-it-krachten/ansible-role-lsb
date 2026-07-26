@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.7.0...v1.8.0) (2026-07-26)
+
+
+### Bug Fixes
+
+* Standarize vars.yml ([9300cea](https://github.com/de-it-krachten/ansible-role-lsb/commit/9300cead121b4e30f7d3b5263344bf1bb9627a9f))
+
+
+### Features
+
+* Added support for Ubuntu 26.04 LTS ([6b80f1a](https://github.com/de-it-krachten/ansible-role-lsb/commit/6b80f1a5aa0ca7f9820b2f4b87bf8c0e3ce9c57b))
+
 # [1.7.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.6.0...v1.7.0) (2026-03-15)
 
 
