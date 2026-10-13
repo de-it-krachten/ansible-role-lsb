@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.8.0...v1.9.0) (2026-10-13)
+
+
+### Features
+
+* Drop support for Debian 11 (Bullseye) ([594981b](https://github.com/de-it-krachten/ansible-role-lsb/commit/594981b49ef2a0d61fd6c215fc65645ffd396e93))
+
 # [1.8.0](https://github.com/de-it-krachten/ansible-role-lsb/compare/v1.7.0...v1.8.0) (2026-07-26)
 
 
